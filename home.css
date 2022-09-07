@@ -1,0 +1,46 @@
+body{
+    background-color: lightgrey;
+}
+img{
+    height: 240px;
+    width: 240px;
+}
+body div .contain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.contain{
+    background-color: white;
+    height: 450px;
+    width: 280px;
+    border-radius: 20px;
+    color: black;
+    text-align: center;
+    margin-left: 550px;
+    margin-top: 70px;
+padding-bottom: 5px;
+transition:width 2s;
+}
+.contain:hover{ 
+    width:500px;
+
+}
+body .contain img{display: flexbox;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 10px;
+    border-radius: 10px;
+}
+body div p{ 
+    color: lightslategray;
+}
+button{ 
+    background-color:red;
+    border:none;
+}
+button:hover{
+    background-color:purple;
+    padding:5px;
+}
